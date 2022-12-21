@@ -31,3 +31,6 @@ migratedown1:
 	migrate -path migrations -database "$(DB_URL)" -verbose down 1
 
 .PHONY: start migrateup migratedown
+
+local-up:
+	docker compose --env-file ./.env.docker up -d
