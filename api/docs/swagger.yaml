@@ -304,7 +304,7 @@ definitions:
     - code
     - email
     type: object
-host: localhost:8000
+host: localhost:8003
 info:
   contact: {}
   description: This is a blog service api.
